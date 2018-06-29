@@ -22,7 +22,7 @@ source=("https://ftp.mozilla.org/pub/thunderbird/releases/$pkgver/linux-x86_64/e
         'thunderbird-beta-bin.desktop'
         'vendor.js'
         'thunderbird-launcher.sh')
-sha512sums=('a6a64fa11aaaa89862ed58cd5744ac3a6c0fa8e65958cf46fca5ba45329e145586597879fbd783522bcb9f0d4ad1f78c5566360e994bddf971073c409fcf8be1'
+sha512sums=('1179896791abe85846fc0fb9af66318795e7e30ebe10b7e9dca8155a9e9548dcaccc47dba44cd0ba817139ca56178c6bd99f6937cc30175a2a498504da2b5d18'
             '4f8dc75ce04f82fbd5c14898ca79767f3ad2c161eea7f9c1e6131787d25933301214fdb11f900d19f9d85f21c9d02c45d1c86b7c871ddfec8ccd85ba4bacf156'
             'aeb444784732267f1b1e87e6084a776f82a1912c4c2637d2cf1de1c135dd9d41d2ef66d2bd3f9cbd3a79fad32d17ea6e2968ba644d5f887cb66ba6c09a2098f5'
             'af2cd461895b3df5c015b4c46e8d7f107c654d5a1e383ada8c222f88630719f90de011cc774f80a5d9d8d435652c1fa5c1a4a0fa63556a0ac6e3591e56a2ea23')
