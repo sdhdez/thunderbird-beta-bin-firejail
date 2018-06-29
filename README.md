@@ -1,0 +1,2 @@
+# thunderbird-beta-bin-firejail
+
