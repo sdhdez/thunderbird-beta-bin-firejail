@@ -78,4 +78,9 @@ END
 
   # Use system certificates
   ln -sf /usr/lib/libnssckbi.so "$pkgdir"/opt/$_pkgname/libnssckbi.so
+
+  # Launcher
+  install -m755 thunderbird-launcher.sh "$pkgdir"/opt/$_pkgname/thunderbird-launcher
+  ln -sf /opt/$_pkgname/thunderbird-launcher "$pkgdir"/usr/bin/$_pkgname
+  ln -sf thunderbird-launcher "$pkgdir"/opt/$_pkgname/thunderbird-bin
 }
