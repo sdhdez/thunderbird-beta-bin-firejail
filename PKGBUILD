@@ -24,8 +24,8 @@ source=("https://ftp.mozilla.org/pub/thunderbird/releases/$pkgver/linux-x86_64/e
         'vendor.js')
 sha512sums=('f79a5e7e88a2390c4dc3244f7eaf95a4717775d13f2b7bfad21d8871e1cb7cf385855a6cc8eae05978c817c32caff07c4da2931877e80ca67dc0fd1395903ecc'
             '4f8dc75ce04f82fbd5c14898ca79767f3ad2c161eea7f9c1e6131787d25933301214fdb11f900d19f9d85f21c9d02c45d1c86b7c871ddfec8ccd85ba4bacf156'
-            'aeb444784732267f1b1e87e6084a776f82a1912c4c2637d2cf1de1c135dd9d41d2ef66d2bd3f9cbd3a79fad32d17ea6e2968ba644d5f887cb66ba6c09a2098f5'
-            'af2cd461895b3df5c015b4c46e8d7f107c654d5a1e383ada8c222f88630719f90de011cc774f80a5d9d8d435652c1fa5c1a4a0fa63556a0ac6e3591e56a2ea23')
+            'af2cd461895b3df5c015b4c46e8d7f107c654d5a1e383ada8c222f88630719f90de011cc774f80a5d9d8d435652c1fa5c1a4a0fa63556a0ac6e3591e56a2ea23'
+            'aeb444784732267f1b1e87e6084a776f82a1912c4c2637d2cf1de1c135dd9d41d2ef66d2bd3f9cbd3a79fad32d17ea6e2968ba644d5f887cb66ba6c09a2098f5')
 # RC
 if [[ $_build = ? ]]; then
   source[0]="thunderbird-$pkgver.tar.bz2::https://ftp.mozilla.org/pub/thunderbird/candidates/$_major-candidates/build$_build/linux-x86_64/en-US/thunderbird-$_major.tar.bz2"
